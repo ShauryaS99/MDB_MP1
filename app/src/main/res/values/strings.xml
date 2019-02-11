@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MP_1</string>
+    <string name="start_button">START</string>
+    <string name="activityMemory_name">Meet The Members</string>
+    <string name="name4">name4</string>
+    <string name="name2">name2</string>
+    <string name="name1">name1</string>
+    <string name="name3">name3</string>
+    <string name="endGame">End</string>
+</resources>
