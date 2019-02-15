@@ -55,6 +55,7 @@ public class MemoryActivity extends AppCompatActivity {
             "William Lu", "Will Oakley", "Xin Yi Chen", "Young Lin"));
     ArrayList<String> options = new ArrayList<>(4);
 
+
     //timer functionality
     CountDownTimer stopwatch = new CountDownTimer(5000, 1000) {
         @Override
@@ -195,7 +196,7 @@ public class MemoryActivity extends AppCompatActivity {
         Collections.shuffle(memberNames);
 
         for (int i = 0; i < 4; i++) {
-            options.set(i, memberNames.get(i));
+            options.add(i, memberNames.get(i));
         }
         answerPos = random.nextInt(4);
         correctAnswer = options.get(answerPos);
